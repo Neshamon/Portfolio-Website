@@ -33,7 +33,8 @@ a {
 
 header {
   height: 100vh;
-  color: var(--color-white); }
+  color: var(--color-white);
+  overflow: hidden; }
 
 section {
   min-height: 100vh;
@@ -42,5 +43,10 @@ section {
   left: 0;
   top: 0;
   padding: 3rem 18rem; }
+
+.section {
+  transform: translateY(-100%);
+  transition: all .4s ease-in-out;
+  background-color: var(--color-primary); }
 
 /*# sourceMappingURL=styles.css.map */
