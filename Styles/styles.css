@@ -19,6 +19,7 @@
   --br-sm-2: 14px; }
 
 body {
+  background-color: var(--color-primary);
   font-family: 'Poppins', sans-serif; }
 
 /*# sourceMappingURL=styles.css.map */
