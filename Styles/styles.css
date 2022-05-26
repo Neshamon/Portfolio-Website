@@ -77,8 +77,13 @@ section {
   background-color: #d8bcab; }
 
 .active {
-  display: block; }
-
+  display: block;
+  animation: scaleAnim 1s ease-in-out; }
+@keyframes scaleAnim {
+  0% {
+    transform: translateY(-100%) scale(0); }
+  100% {
+    transform: translateY(0%) scale(1); } }
 .controls {
   position: fixed;
   z-index: 10;
