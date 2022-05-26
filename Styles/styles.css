@@ -76,11 +76,6 @@ section {
   transform: translateY(0) scale(1);
   background-color: #d8bcab; }
 
-#myself {
-  width: 20%;
-  height: 10%;
-  border-radius: 50%; }
-
 .active {
   display: block;
   animation: scaleAnim 1s ease-in-out; }
@@ -120,5 +115,25 @@ section {
       font-size: 1.2rem;
       color: var(--color-grey-2);
       pointer-events: none; }
+
+.header-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+  .header-content .left-header {
+    display: flex;
+    align-items: center;
+    position: relative; }
+    .header-content .left-header .h-shape {
+      transition: var(--transition);
+      width: 65%;
+      height: 100%;
+      background-color: var(--color-secondary);
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -1;
+      clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%); }
+    .header-content .left-header .image {
+      border-radius: var(--br-sm-2); }
 
 /*# sourceMappingURL=styles.css.map */
