@@ -16,7 +16,8 @@
   --color-grey-4: #454e56;
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
-  --br-sm-2: 14px; }
+  --br-sm-2: 14px;
+  --box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.3); }
 
 body {
   background-color: var(--color-primary);
@@ -76,6 +77,20 @@ section {
   right: 3%;
   display: flex;
   flex-direction: column;
-  transition: translateY(-50%); }
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-50%); }
+  .controls .control {
+    padding: 1rem;
+    background-color: var(--color-grey-4);
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .7rem 0;
+    box-shadow: var(--box-shadow-1); }
 
 /*# sourceMappingURL=styles.css.map */
