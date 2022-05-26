@@ -76,6 +76,9 @@ section {
   transform: translateY(0) scale(1);
   background-color: hsv(22, 21%, 85%); }
 
+.active {
+  display: block; }
+
 .controls {
   position: fixed;
   z-index: 10;
