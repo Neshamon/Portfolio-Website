@@ -53,7 +53,8 @@ section {
 
 .sec1 {
   display: none;
-  transform: translateY(0) scale(1); }
+  transform: translateY(0) scale(1);
+  background-color: hsva(14, 88%, 87%, 0.83); }
 
 .sec2 {
   display: none;
