@@ -61,7 +61,7 @@ section {
 .sec1 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: hsva(14, 88%, 87%, 0.83);
+  background-color: hsla(13, 78%, 48%, 0.83);
 }
 
 .sec2 {
@@ -73,19 +73,19 @@ section {
 .sec3 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: rgba(99, 127, 223, 0.8);
+  background-color: hsla(226, 65%, 63%, 0.8);
 }
 
 .sec4 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: rgb(224, 175, 139);
+  background-color: hsl(25, 57%, 71%);
 }
 
 .sec5 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: hsv(22, 21%, 85%);
+  background-color: hsl(22, 37%, 76%);
 }
 
 .active{

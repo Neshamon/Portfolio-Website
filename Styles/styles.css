@@ -54,7 +54,7 @@ section {
 .sec1 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: hsva(14, 88%, 87%, 0.83); }
+  background-color: rgba(218, 68, 27, 0.83); }
 
 .sec2 {
   display: none;
@@ -64,17 +64,17 @@ section {
 .sec3 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: rgba(99, 127, 223, 0.8); }
+  background-color: rgba(99, 128, 222, 0.8); }
 
 .sec4 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: #e0af8b; }
+  background-color: #dfae8b; }
 
 .sec5 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: hsv(22, 21%, 85%); }
+  background-color: #d8bcab; }
 
 .active {
   display: block; }
