@@ -62,31 +62,31 @@ section {
 .sec1 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: hsla(13, 78%, 48%, 0.83);
+
 }
 
 .sec2 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: slateblue;
+
 }
 
 .sec3 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: hsla(226, 65%, 63%, 0.8);
+
 }
 
 .sec4 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: hsl(25, 57%, 71%);
+
 }
 
 .sec5 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: hsl(22, 37%, 76%);
+  
 }
 
 //Active Class
@@ -165,6 +165,10 @@ section {
     }
     .image {
       border-radius: var(--br-sm-2);
+      #myself{
+        width: 20%;
+        height: 20%;
+      }
     }
   }
 }

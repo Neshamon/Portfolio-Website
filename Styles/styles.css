@@ -53,28 +53,23 @@ section {
 
 .sec1 {
   display: none;
-  transform: translateY(0) scale(1);
-  background-color: rgba(218, 68, 27, 0.83); }
+  transform: translateY(0) scale(1); }
 
 .sec2 {
   display: none;
-  transform: translateY(0) scale(1);
-  background-color: slateblue; }
+  transform: translateY(0) scale(1); }
 
 .sec3 {
   display: none;
-  transform: translateY(0) scale(1);
-  background-color: rgba(99, 128, 222, 0.8); }
+  transform: translateY(0) scale(1); }
 
 .sec4 {
   display: none;
-  transform: translateY(0) scale(1);
-  background-color: #dfae8b; }
+  transform: translateY(0) scale(1); }
 
 .sec5 {
   display: none;
-  transform: translateY(0) scale(1);
-  background-color: #d8bcab; }
+  transform: translateY(0) scale(1); }
 
 .active {
   display: block;
@@ -135,5 +130,8 @@ section {
       clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%); }
     .header-content .left-header .image {
       border-radius: var(--br-sm-2); }
+      .header-content .left-header .image #myself {
+        width: 20%;
+        height: 20%; }
 
 /*# sourceMappingURL=styles.css.map */
