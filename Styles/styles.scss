@@ -203,6 +203,11 @@ section {
 }
 
 //Independent Components
+.btn-container {
+  display: flex;
+  align-self: flex-start;
+}
+
 .main-btn {
   border-radius: 30px;
   color: inherit;

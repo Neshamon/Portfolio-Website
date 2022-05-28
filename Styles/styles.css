@@ -157,6 +157,10 @@ section {
         margin: 1.5rem 0;
         line-height: 2rem; }
 
+.btn-container {
+  display: flex;
+  align-self: flex-start; }
+
 .main-btn {
   border-radius: 30px;
   color: inherit;
