@@ -613,8 +613,12 @@ section {
     grid-template-columns: 1fr;
     padding-bottom: 6rem; }
 
-  .about-stats .progress-bar {
+  .about-stats .progress-bars {
     grid-template-columns: 1fr; }
+
+  .portfolios {
+    grid-template-columns: 1fr;
+    padding-bottom: 6rem; }
 
   .blogs {
     grid-template-columns: 1fr;
