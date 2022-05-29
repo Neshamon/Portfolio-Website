@@ -179,7 +179,7 @@ section {
           position: relative;
           text-transform: uppercase;
           font-size: 1.2rem;
-          color: var(--color-gray-1);
+          color: var(--color-grey-1);
           letter-spacing: 2px;
           &::before {
             content: "";
@@ -190,6 +190,43 @@ section {
             height: 2px;
             background-color: var(--color-grey-5);
           }
+        }
+      }
+    }
+  }
+
+  .left-about {
+        padding-right: 5rem;
+        p {
+            line-height: 2rem;
+            padding: 1rem;
+            color: var(--color-grey-1);
+        }
+        h4 {
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.about-stats {
+  padding-bottom: 4rem;
+  .progress-bars {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    .progress-bar {
+      display: flex;
+      flex-direction: column;
+      .progress-title {
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+      .progress-container {
+        display: flex;
+        align-items: center;
+        .progress-text {
+          color: var(--color-grey-2)
         }
       }
     }
