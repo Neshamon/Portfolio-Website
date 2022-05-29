@@ -613,6 +613,13 @@ section {
     grid-template-columns: 1fr;
     padding-bottom: 6rem; }
 
+  .about-stats .progress-bar {
+    grid-template-columns: 1fr; }
+
+  .blogs {
+    grid-template-columns: 1fr;
+    padding-bottom: 6rem; }
+
   .section {
     padding: 2rem 2.5rem; }
 
