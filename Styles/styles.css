@@ -288,6 +288,17 @@ section {
       font-size: .8rem;
       text-transform: uppercase;
       font-weight: 500; }
+    .timeline .timeline-item h5 {
+      padding: 1rem 0;
+      text-transform: uppercase;
+      font-size: 1.3rem;
+      font-weight: 600; }
+      .timeline .timeline-item h5 span {
+        color: var(--color-grey-2);
+        font-weight: 500;
+        font-size: 1.2rem; }
+    .timeline .timeline-item p {
+      color: var(--color-grey-2); }
 
 .btn-container {
   display: flex;
