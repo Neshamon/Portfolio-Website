@@ -204,6 +204,7 @@ section {
   padding: 3.5rem 0;
   position: relative; }
   .stats-title::before {
+    position: absolute;
     content: "";
     left: 50%;
     top: 0;
