@@ -33,6 +33,11 @@ function manageClass() {
     }
   }); //@dev This function manages classes of the sections
 
+  const themeBtn = document.querySelector(".theme-btn");
+  themeBtn.addEventListener("click", () => {
+    let element = document.body;
+    element.classList.toggle("light-mode");
+  })
 } //@dev This function manages classes of different parts of the page
 
 manageClass();
