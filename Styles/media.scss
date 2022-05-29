@@ -11,6 +11,11 @@
     height: 50px;
   }
 
+  .header-content {
+    grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+
   .controls {
     top: auto;
     bottom: 0;
