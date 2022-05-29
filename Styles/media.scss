@@ -16,6 +16,21 @@
     padding-bottom: 6rem;
   }
 
+  .left-header {
+    .h-shape {
+      display: none;
+    }
+  }
+
+  .right-header {
+    grid-row: 1;
+    width: 90%;
+    margin: 0 auto;
+    .name {
+      font-size: 2.5rem !important;
+    }
+  }
+
   .controls {
     top: auto;
     bottom: 0;
