@@ -55,6 +55,7 @@ header {
   min-height: 100vh;
   color: var(--color-white);
   overflow: hidden;
+  padding: 0 !important;
 }
 
 section {
@@ -129,13 +130,6 @@ section {
   align-items: center;
   justify-content: center;
   transform: translateY(-50%);
-  .active-btn{
-    background-color: var(--color-secondary) !important;
-    transition: var(--transition);
-    i{
-      color: var(--color-white) !important;
-    }
-  }
 
   .control {
     padding: 1rem;
@@ -154,6 +148,13 @@ section {
       font-size: 1.2rem;
       color: var(--color-grey-2);
       pointer-events: none;
+    }
+    .active-btn{
+      background-color: var(--color-secondary) !important;
+      transition: var(--transition);
+      i{
+        color: var(--color-white) !important;
+      }
     }
   }
 }
