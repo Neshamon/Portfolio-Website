@@ -225,8 +225,18 @@ section {
             background-color: var(--color-secondary);
             transition: var(--transition);
             width: 60%; }
-          .about-stats .progress-bars .progress-bar .progress-container .progress .html {
+          .about-stats .progress-bars .progress-bar .progress-container .progress .frontend {
             width: 90%; }
+          .about-stats .progress-bars .progress-bar .progress-container .progress .backend {
+            width: 90%; }
+          .about-stats .progress-bars .progress-bar .progress-container .progress .responsive {
+            width: 100%; }
+          .about-stats .progress-bars .progress-bar .progress-container .progress .qa {
+            width: 70%; }
+          .about-stats .progress-bars .progress-bar .progress-container .progress .dataVis {
+            width: 70%; }
+          .about-stats .progress-bars .progress-bar .progress-container .progress .algo {
+            width: 100%; }
 
 .stats-title {
   text-transform: uppercase;

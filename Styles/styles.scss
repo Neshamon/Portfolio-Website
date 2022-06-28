@@ -277,8 +277,23 @@ section {
             transition: var(--transition);
             width: 60%;
           }
-          .html {
+          .frontend {
             width: 90%;
+          }
+          .backend {
+            width: 90%;
+          }
+          .responsive {
+            width: 100%;
+          }
+          .qa {
+            width: 70%;
+          }
+          .dataVis {
+            width: 70%;
+          }
+          .algo {
+            width: 100%;
           }
         }
       }
