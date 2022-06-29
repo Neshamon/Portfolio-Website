@@ -463,11 +463,12 @@ section {
       line-height: 2rem; }
     .contact-content-container .left-contact .contact-info .contact-item {
       display: flex;
-      align-items: center;
-      justify-content: space-between; }
+      align-items: center; }
       .contact-content-container .left-contact .contact-info .contact-item p {
         margin: .3rem 0 !important;
-        padding: 0 !important; }
+        padding: 0 !important;
+        text-align: left;
+        align-items: flex-start; }
       .contact-content-container .left-contact .contact-info .contact-item .icon {
         display: grid;
         grid-template-columns: 40px 1fr; }
